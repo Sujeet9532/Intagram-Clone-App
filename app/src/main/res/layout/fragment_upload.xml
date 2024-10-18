@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fregment.UploadFragment">
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/bottom_seet_add_post"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/image_post"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:src="@drawable/baseline_add_a_photo_24" />
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/add_post"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            android:text="Add Post" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/add_post_upload"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/image_rells"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:src="@drawable/baseline_slow_motion_video_24" />
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/text_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            android:text="Upload Rells" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

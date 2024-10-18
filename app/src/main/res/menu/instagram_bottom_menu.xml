@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        android:id="@+id/homeFragment" />
+    <item android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        android:id="@+id/searchFragment" />
+    <item android:icon="@drawable/baseline_add_box_24"
+        android:title="Upload"
+        android:id="@+id/uploadFragment" />
+    <item android:icon="@drawable/baseline_slow_motion_video_24"
+        android:title="Rells"
+        android:id="@+id/rellsFragment" />
+    <item android:icon="@drawable/baseline_person_24"
+        android:title="Person"
+        android:id="@+id/profileFragment" />
+
+
+
+</menu>
