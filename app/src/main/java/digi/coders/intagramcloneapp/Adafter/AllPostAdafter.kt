@@ -49,7 +49,7 @@ class AllPostAdafter(var context: Context, val postlist:ArrayList<Post>):Recycle
         holder.binding.sentSms.setOnClickListener{
             var i=Intent(Intent.ACTION_SEND)
             i.putExtra(Intent.EXTRA_TEXT,postlist.get(position).postUrl)
-            i.type="text/plain"
+            i.type="text/plainc"
             context.startActivity(i)
         }
         holder.binding.caption.text=postlist.get(position).caption
